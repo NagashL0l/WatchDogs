@@ -2,7 +2,7 @@
 ## Juan Blanco Martín
 
 ### Tecnología usada:
-Aplicación desarrollada con el framwork **Flutter** y lenguaje **Dart**. IDE **Visual Studio Code** y control de versiones con **Github**.
+Aplicación desarrollada con el framework **Flutter** y lenguaje **Dart**. IDE **Visual Studio Code** y control de versiones con **Github**.
 
 ### Objetivo: 
 Denunciar públicamente los perros peligrosos que son paseados sin correa y/o sin bozal.
