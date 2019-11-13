@@ -1,16 +1,12 @@
-# watchdogs_flutter
+# WatchDogs
+## Juan Blanco Martín
 
-A new Flutter project.
+### Tecnología usada:
+Aplicación desarrollada con el framwork **Flutter** y lenguaje **Dart**. IDE **Visual Studio Code** y control de versiones con **Github**.
 
-## Getting Started
+### Objetivo: 
+Denunciar públicamente los perros peligrosos que son paseados sin correa y/o sin bozal.
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Cómo:
+Cuando se encuentre un perro con estas características la aplicación permitirá sacarle una foto. A la foto se le vinculará la ubicación y se publicará automáticamente en alguna red social (aún por determinar).
+Además WatchDogs contará con un sistema de ranking, guardando en una base de datos en un servidor externo el usuario y la cantidad de perros denunciados. 
