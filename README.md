@@ -13,3 +13,4 @@ Además WatchDogs contará con un sistema de ranking, guardando en una base de d
 
 ### Solución de  problemas:
 - Cuando VSCode no detecta los packages de Flutter escribir en consola `` flutter packages get ``.
+- Para conectar con Firebase debe usarse ``androidx`` para ello ``flutter create --androidx <new-project-path>``.
