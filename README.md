@@ -15,4 +15,4 @@ Además WatchDogs contará con un sistema de ranking, guardando en una base de d
 - Cuando VSCode no detecta los packages de Flutter escribir en consola `` flutter packages get ``.
 - Para conectar con Firebase debe usarse ``androidx`` para ello ``flutter create --androidx <new-project-path>``.
 - Si la migración a ``androidx`` falla se puede seguir esta guía: https://medium.com/comunidad-flutter/c%C3%B3mo-solucionar-la-incompatibilidad-de-androidx-en-flutter-8bce978748b9 
-- Al abrir el proyecto en otro ordenador puede ser que se necesite cambiar en el **app/build.gradle** ``minSdkVersion 21``.
+- Al abrir el proyecto en otro ordenador puede ser que se necesite cambiar en el **app/build.gradle** ``minSdkVersion 21``, después ``flutter clean``.
