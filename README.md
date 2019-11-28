@@ -16,3 +16,15 @@ Además WatchDogs contará con un sistema de ranking, guardando en una base de d
 - Para conectar con Firebase debe usarse ``androidx`` para ello ``flutter create --androidx <new-project-path>``.
 - Si la migración a ``androidx`` falla se puede seguir esta guía: https://medium.com/comunidad-flutter/c%C3%B3mo-solucionar-la-incompatibilidad-de-androidx-en-flutter-8bce978748b9 
 - Al abrir el proyecto en otro ordenador puede ser que se necesite cambiar en el **app/build.gradle** ``minSdkVersion 21``, después ``flutter clean``.
+- Para solucionar problema con el **build.gradle debubMode** copiar 
+```dart
+configurations.all {
+        resolutionStrategy.eachDependency { DependencyResolveDetails details ->
+            def requested = details.requested
+            if (requested.group == 'com.google.firebase') {
+                details.useVersion "15.+"
+            }
+        }
+    }
+```
+en el **android/build.gradle**.
