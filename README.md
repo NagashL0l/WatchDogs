@@ -27,4 +27,4 @@ configurations.all {
         }
     }
 ```
-en el **android/build.gradle**.
+en el **android/build.gradle**, dentro de ``allprojects`` encima de ``repositories``.
