@@ -27,6 +27,7 @@ dev_dependencies:
 flutter:
   assets:
     - images/warningDog.png
+    - images/warningDogBack.png
 
   uses-material-design: true
 

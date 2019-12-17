@@ -18,42 +18,56 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'WatchDogs',
       home: Scaffold(
-        appBar: AppBar(
+        appBar: new AppBar(
+          iconTheme: IconThemeData(color: Colors.black),
+          backgroundColor: Colors.black,
           title: Center(
-            child: Text('WatchDogs'),
+            child: Text('WatchDogs', style: TextStyle(color: Colors.white)),
           )
         ),
-        body: new Stack(
-          children: <Widget>[
-            new Container(
-              decoration: new BoxDecoration(
-                image: new DecorationImage(image: new AssetImage("images/warningDog.png"), fit: BoxFit.cover,),
+        body: new Container(
+            decoration: new BoxDecoration(
+              image: new DecorationImage(
+                image: new AssetImage("images/warningDogBack.png"),
+                fit: BoxFit.cover,
               ),
             ),
-            new Container(
-              child: Text("Pantalla principal"),
-            )
-          ],
-        )
-      ),
-    );
-  }
 
-  @override
-  Widget OpcionesPantallaPrincipal(BuildContext context) {
-    return MaterialApp(
-      padding : const EdgeInsets.all(32),
-      child: Container(
-        children: <Widget> [
 
-        ]
 
+            )//child: botonesPrincipales
       )
 
     );
+  }
+
+  Widget botonesPrincipales = Container (
+
+    child: new Column(
+
+      children: <Widget>[
+
+        new FlatButton(
+          child: new Text("Camara"),
+          color:  Colors.black,
+          onPressed: null,
+        ),
 
 
+        new FlatButton(
+          child: new Text("Otra cosa "),
+          color:  Colors.black,
+          onPressed: null,
+        ),
 
+
+      ],
+    ),
+  );
+
+
+  void pulsado(){
+    print("pulsado XD");
   }
 
 }
