@@ -28,3 +28,5 @@ configurations.all {
     }
 ```
 en el **android/build.gradle**, dentro de ``allprojects`` encima de ``repositories``.
+
+- Para implementar la funcionalidad de la cámara sigo el siguiente tutorial: https://flutter.dev/docs/cookbook/plugins/picture-using-camera .
