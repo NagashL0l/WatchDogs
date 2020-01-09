@@ -11,7 +11,7 @@ Denunciar públicamente los perros peligrosos que son paseados sin correa y/o si
 Cuando se encuentre un perro con estas características la aplicación permitirá sacarle una foto. A la foto se le vinculará la ubicación y se publicará automáticamente en alguna red social (aún por determinar).
 Además WatchDogs contará con un sistema de ranking, guardando en una base de datos en un servidor externo el usuario y la cantidad de perros denunciados. 
 
-### Solución de  problemas:
+### Documentación:
 - Cuando VSCode no detecta los packages de Flutter escribir en consola `` flutter packages get ``.
 - Para conectar con Firebase debe usarse ``androidx`` para ello ``flutter create --androidx <new-project-path>``.
 - Si la migración a ``androidx`` falla se puede seguir esta guía: https://medium.com/comunidad-flutter/c%C3%B3mo-solucionar-la-incompatibilidad-de-androidx-en-flutter-8bce978748b9 
@@ -30,3 +30,7 @@ configurations.all {
 en el **android/build.gradle**, dentro de ``allprojects`` encima de ``repositories``.
 
 - Para implementar la funcionalidad de la cámara sigo el siguiente tutorial: https://flutter.dev/docs/cookbook/plugins/picture-using-camera .
+
+- La información para el uso de la función *Share* fue optenida de https://pub.dev/packages/share .
+
+- Para la localización utilizo el package __geolocator__ https://pub.dev/packages/geolocator .
